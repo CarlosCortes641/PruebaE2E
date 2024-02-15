@@ -23,3 +23,21 @@ cd prueba-automatizada
 
 5. Inicializa un nuevo proyecto de Node.js ejecutando el siguiente comando:
 npm init -y
+
+6. Instala Cypress como una dependencia de desarrollo ejecutando el siguiente comando: npm install cypress --save-dev
+
+7. Descarga los archivos de la prueba automatizada y colócalos dentro del directorio prueba-automatizada.
+
+8. Regresa a la terminal o línea de comandos y navega hasta el directorio prueba-automatizada ejecutando el siguiente comando: cd prueba-automatizada
+
+9. Ejecuta el siguiente comando para abrir Cypress: npx cypress open
+
+10. En la interfaz de Cypress, haz clic en el archivo de prueba llamado "Apis.cy.js" en la lista de archivos disponibles.
+
+11. Asegúrate de que el navegador en el que deseas ejecutar la prueba esté seleccionado en la parte superior derecha de la ventana de Cypress.
+
+12. Haz clic en el archivo de prueba para ejecutarlo. Verás cómo se ejecutan las pruebas automatizadas paso a paso en el navegador seleccionado.
+
+13. Observa los resultados de la prueba en la interfaz de Cypress. La interfaz mostrará información detallada sobre el progreso y los resultados de la prueba, incluyendo cualquier error que pueda haber ocurrido.
+
+Con estos pasos, podrás ejecutar la prueba automatizada de la API utilizando Cypress en tu entorno de desarrollo. Asegúrate de tener todas las dependencias instaladas correctamente y de seguir las instrucciones paso a paso para obtener los mejores resultados.
